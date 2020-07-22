@@ -7,13 +7,16 @@
 			<h1 class="text-center pt-5">Friends Church Ruaraka</h1>
 			<hr>
 			<p class="text-center">
-				Friends Church (Quakers), Nairobi Yearly Meeting was established on 3rd May 1987.  The organization is a constituent member of the Friends Church in Kenya (FCK). Our Head Quarters is located at Friends International Centre, Ngong Road, Nairobi.
+				Friends Church (Quakers), Nairobi Yearly Meeting was established on 3rd
+				May 1987. The organization is a constituent member of the Friends Church
+				in Kenya (FCK). Our Head Quarters is located at Friends International
+				Centre, Ngong Road, Nairobi.
 			</p>
 		</div>
-	
+
 		<div class="pt-5 mb-5">
 			<div class="text-center mb-5">
-				
+
 				<h3 class="pt-3">Create account</h3>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
@@ -24,25 +27,25 @@
 								<div class="form-group">
 									{{form.username(class='form-control', placeholder='Username', type='text')}}
 									{% for error in form.username.errors %} <br>
-										<span class="text-danger"><small>{{error}}</small></span>
+									<span class="text-danger"><small>{{error}}</small></span>
 									{% endfor %}
 								</div>
 								<div class="form-group">
 									{{form.email(class='form-control', placeholder='Email',type='email')}}
 									{% for error in form.email.errors %} <br>
-										<span class="text-danger"><small>{{error}}</small></span>
+									<span class="text-danger"><small>{{error}}</small></span>
 									{% endfor %}
 								</div>
 								<div class="form-group">
 									{{form.password(class='form-control', placeholder='Password', type='password')}}
 									{% for error in form.password.errors %} <br>
-										<span class="text-danger"><small>{{error}}</small></span>
+									<span class="text-danger"><small>{{error}}</small></span>
 									{% endfor %}
 								</div>
 								<div class="form-group">
 									{{form.password2(class='form-control', placeholder='Confirm Password' ,type='password')}}
 									{% for error in form.password2.errors %} <br>
-										<span class="text-danger"><small>{{error}}</small></span>
+									<span class="text-danger"><small>{{error}}</small></span>
 									{% endfor %}
 								</div>
 								<div class="form-group">
@@ -50,7 +53,9 @@
 								</div>
 								<div>
 									<p class="m-1">Or</p>
-									<a href="{{url_for('login')}}"><p class="m-1 text-white">Login</p></a>
+									<a href="{{url_for('login')}}">
+										<p class="m-1 text-white">Login</p>
+									</a>
 								</div>
 
 							</fieldset>
@@ -60,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-</div>
+	</div>
 </section>
 
 
